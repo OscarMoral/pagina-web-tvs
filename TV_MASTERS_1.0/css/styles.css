@@ -1,0 +1,19 @@
+
+.hero {
+    background: url('../images/background_hero_catalog.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Popover para los detalles del producto */
+.product-popover {
+    position: absolute;
+    z-index: 1000;
+    width: 300px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
